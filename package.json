@@ -1,19 +1,33 @@
 {
   "name": "get-avg-pixel",
-  "description": "Put A Description Here!",
+  "description": "get the average of an array of pixel data",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "browserify www/demo.js -o www/bundle.js",
-    "test": "standard && node test.js",
-    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose"
+    "test": "standard && node test.js"
   },
   "devDependencies": {
-    "browserify": "*",
     "standard": "*",
-    "tape": "*",
-    "watchify": "*"
+    "tape": "*"
   },
   "license": "MIT",
-  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)"
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "dependencies": {
+    "standard": "^4.5.4",
+    "tape": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/get-avg-pixel.git"
+  },
+  "keywords": [
+    "pixel",
+    "canvas",
+    "image",
+    "art"
+  ],
+  "bugs": {
+    "url": "https://github.com/coleww/get-avg-pixel/issues"
+  },
+  "homepage": "https://github.com/coleww/get-avg-pixel"
 }
